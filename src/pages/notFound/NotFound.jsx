@@ -7,7 +7,7 @@ import './notFound.css'
 const NotFound = () => {
   return (
     <div className='gpt3__404'>
-    <div className='gpt3__404-container gradient__bg'>
+    <div className='gpt3__404-container section__padding gradient__bg'>
     <motion.div className='gpt3__404-container_bg'
         initial={{ backgroundPositionX:'3px', backgroundPositionY:'-7px' }}
         animate={{backgroundPositionX:'-3px', backgroundPositionY:'4px'}}

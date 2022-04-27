@@ -1,6 +1,5 @@
 .gpt3__404{
     height: 100vh;
-    overflow-y: hidden;
 }
 .gpt3__404-container{
     display: flex;
@@ -59,52 +58,25 @@
     background-size: contain;
 }
 @media screen and (max-width:1050px){
-    .gpt3__header{
+    .gpt3__404-container{
         flex-direction: column;
-    }
-    .gpt3__header-content{
-        margin: 0 0 3rem
     }
 }
 @media screen and (max-width:650px){
-    .gpt3__header{
-        padding: 4rem
-    }
-    .gpt3__header h1{
+    .gpt3__404-container h1{
         font-size: 48px;
         line-height: 60px;
     }
-    .gpt3__header p{
-        font-size: 16px;
-        line-height: 24px;
+    .gpt3__404-container p{
+        font-size: 28px;
+        line-height: 34px;
     }
-    .gpt3__header-content__people{
-        flex-direction: column;
+    .gpt3__404-container a{
+        font-size: 20px;
+        line-height: 25px;
     }
-    .gpt3__header-content__people p{
-        margin:0;
-    }
-    .gpt3__header-content__input input, .gpt3__header-content__input button{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-}
-@media screen and (max-width: 490px){
-    .gpt3__header{
-        padding: 2rem
-    }
-    .gpt3__header h1{
-        font-size: 36px;
-        line-height: 48px;
-    }
-    .gpt3__header p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .gpt3__header-content__input input,
-    .gpt3__header-content__input button{
-        font-size: 12px;
-        line-height: 16px;
+    .gpt3__404-content {
+        text-align: center;
+        align-items: center;
     }
 }
