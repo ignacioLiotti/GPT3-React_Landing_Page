@@ -1,8 +1,7 @@
 import React from 'react'
 import './header.css'
 import people from '../../assets/people.png'
-import ai from '../../assets/ai.png'
-import Layer1 from './Layers1.png'
+import Layer1 from '../../assets/Layers1.png'
 
 import { motion } from "framer-motion"
 

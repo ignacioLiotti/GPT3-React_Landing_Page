@@ -97,13 +97,13 @@ border: none;
     opacity: 0.6;
 }
 .header__bg{
-    background-image: url(./Fondo.png);
+    background-image: url(../../assets/Fondo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .header__face{
-    background-image: url(./Face.png);
+    background-image: url(../../assets/Face.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
