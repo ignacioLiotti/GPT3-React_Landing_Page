@@ -103,3 +103,23 @@
     font-weight: 600;
     color: var(--color-text);
 }
+
+@media screen and (max-width:550px) {
+    .gpt3__signUp-container{
+        width: auto;
+    }
+    .gpt3__signUp-container h1 {
+        font-size: 25px;
+    }
+    .gpt3__signUp-container h2 {
+        font-size: 20px;
+    }
+    .gpt3__signUp-container p {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .gpt3__signUp-btn button{
+        padding:1rem 2rem;
+    }
+}

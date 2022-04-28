@@ -4,7 +4,7 @@ import './signUp.css'
 const SignUp = () => {
   return (
     <div className='gpt3__signUp section__padding gradient__bg'>
-      <div className='gpt3__signUp-container'>
+      <div className='gpt3__signUp-container section__padding'>
         <h1 className='gradient__text'>Let's get started!</h1>
         <h2>Create an account</h2>
         <p>Complete all the fields to have your new GPT 3 interactive account</p>
