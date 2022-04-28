@@ -1,0 +1,105 @@
+.gpt3__signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(199, 208, 209);
+    font-family: var(--font-family);
+}
+.gpt3__signUp-container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gpt3__signUp-container form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+.gpt3__signUp-container h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gpt3__signUp-container h2 {
+    margin: 10px 0 5px 0;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gpt3__signUp-container p {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gpt3__signUp-container form div {
+    width: 100%;
+}
+
+.gpt3__signUp-container .input-box{
+    position: relative;
+    margin-top: 1.5rem;
+}
+.gpt3__signUp-container .input-check{
+    margin: .5rem;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.gpt3__signUp-container .input-check input{
+    margin: .5rem;
+    height: 20px;
+    width: 20px;
+}
+.gpt3__signUp-container form p{
+    font-size: 13px;
+}
+.gpt3__signUp-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gpt3__signUp-btn button{
+    font-size: 23px;
+    margin: 2rem 0;
+    font-weight: 700;
+    padding:1rem 10rem;
+    font-family: var(--font-family);
+}
+.gpt3__signUp-container .input-box input{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 23px;
+    color: white;
+    outline: none;
+    transition: .5s;
+    background: transparent;
+}
+.gpt3__signUp-container .input-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    pointer-events: none;
+    border: none;
+    color: white;
+    transition: .5s;
+}
+.gpt3__signUp-container .input-box input:focus ~ label,
+.gpt3__signUp-container .input-box input:active ~ label,
+.gpt3__signUp-container .input-box input:not(:placeholder-shown) ~ label{
+    top: -20px;
+    left: 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-text);
+}
