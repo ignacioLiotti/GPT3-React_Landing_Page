@@ -2,6 +2,7 @@ import React from 'react'
 import './features.css'
 import {Feature} from '../../components'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 const featuresData=[
   {
     title:'Improving end distrusts instantly ',
@@ -22,19 +23,60 @@ const featuresData=[
 ]
 
 const Features = () => {
+
+  const loadVars={
+    initial:{
+      x:'-5vw',
+      opacity: 0,
+    },
+    whileInView:{
+      x:0,
+      opacity: 1,
+      transition: {
+        duration: 3
+      }
+    }
+  }
+
+  const loadVarsParent={
+    initial:{
+      opacity: 0,
+    },
+    whileInView:{
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5,
+        
+      }
+    }
+  }
+  const loadVarsChild={
+    initial:{y:'-2vw',opacity: 0},
+    whileInView:{
+      y:0,
+      opacity: 1,
+      transition: {
+      duration: 4, 
+      }
+    }
+  }
+
+
   return (
     <div className='gpt3__features section__padding' id='features'>
-      <div className='gpt3__features-heading'>
+      <motion.div className='gpt3__features-heading' variants={loadVars} initial='initial' whileInView='whileInView' viewport={{once:true}}>
         <h1 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
         <Link to='/sign-up'><p>Request Early Access to Get Started</p></Link>
-      </div>
-      <div className='gpt3__features-container'>
+      </motion.div>
+      <motion.div className='gpt3__features-container' variants={loadVarsParent} initial='initial' whileInView='whileInView' viewport={{once:true}}>
         {featuresData.map((item,index)=>{
           return(
+          <motion.div variants={loadVarsChild} >
             <Feature key={index} title={item.title} text={item.text} />
+          </motion.div>
           )
 })}
-      </div>      
+      </motion.div>      
     </div>
   )
 }

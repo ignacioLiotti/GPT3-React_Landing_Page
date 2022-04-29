@@ -16,6 +16,7 @@
 .gpt3__possibility-image img{
     width: 100%;
     height: 100%;
+    z-index: 10;
 }
 .gpt3__possibility-content{
     flex: 1;
@@ -50,6 +51,59 @@
 
 }
 
+.img__rad{
+    position: absolute;
+    top: 27%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    transform-origin: bottom;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: #05152D solid 5px;
+    z-index: 1;
+    box-shadow: inset 6px 6px 13px #07234D, inset -6px -6px 13px rgba(1, 8, 19, 0.15);
+    filter: drop-shadow(-6px -6px 18px #07234D) drop-shadow(6px 6px 18px rgba(4, 15, 32, 0.2));
+}
+#img__btn1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    top: 10%;
+    left: 10%;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1rem;
+    background: #042C54;
+    z-index: 20;
+    font-family: var(--font-family);
+    color: #fff;
+}
+#img__btn2{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    top: 20%;
+    right: 12%;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    background: #FF8A71;
+    z-index: 20;
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+#img__btn1 img
+,#img__btn2 img{
+    height: 3rem;
+    width: 3rem;
+}
+
 @media screen and (max-width:950px){
     .gpt3__possibility{
         flex-direction: column;
@@ -59,5 +113,27 @@
     }
     .gpt3__possibility-content{
         margin-top: 2rem;
+    }
+}
+@media screen and (max-width:550px){
+    #img__btn1{
+        top: 10%;
+        left: 10%;
+        padding: 1rem 1rem;
+        border-radius: 1rem;
+    }
+    #img__btn2{
+        z-index: 1;
+        right: 10%;
+        padding: .5rem 1rem;
+        gap: .5rem;
+        border-radius: .6rem;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #img__btn1 img
+    ,#img__btn2 img{
+        height: 1.5rem;
+        width: 1.5rem;
     }
 }
