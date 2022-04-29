@@ -4,6 +4,7 @@ import people from '../../assets/people.png'
 import Layer1 from '../../assets/Layers1.png'
 
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
         
         <div className='gpt3__header-content__input'>
           <input type="email" placeholder='Your Email'/>
-          <button type='button'>Get Started</button>
+          <Link to='/sign-up'><button type='button'>Get Started</button></Link>
         </div>
 
         <div className='gpt3__header-content__people'>

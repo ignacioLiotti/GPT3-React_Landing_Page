@@ -1,6 +1,7 @@
 import React from 'react'
 import './whatGPT3.css'
 import {Feature} from '../../components'
+import { Link } from 'react-router-dom'
 
 const featuresData = [
   {
@@ -25,7 +26,7 @@ const WhatGPT3 = () => {
       </div>
       <div className='gpt3__whatgpt3-heading'>
         <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
-        <p>Explore The Library</p>
+        <Link to='/sign-up'><p>Explore The Library</p></Link>
       </div>
       <div className='gpt3__whatgpt3-container'>
         {featuresData.map((item,index)=>{

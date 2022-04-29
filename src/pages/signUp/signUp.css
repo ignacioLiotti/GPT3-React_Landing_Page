@@ -103,6 +103,44 @@
     font-weight: 600;
     color: var(--color-text);
 }
+.gpt3__signUp-congrats{
+    display: flex;
+    justify-self: center;
+}
+.gpt3__signUp-congrats_container{
+    position: fixed;
+    z-index: 10;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 2.5rem 5rem;
+
+    border-radius: 15px;
+    background: var(--gradient-bar);
+    color: var(--color-footer);
+    font-family: var(--font-family);
+}
+.gpt3__signUp-congrats_container h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.gpt3__signUp-congrats_container p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.gpt3__signUp-congrats_container a{
+    font-size: 23px;
+    margin: 2rem 0;
+    font-weight: 700;
+    text-decoration: underline;
+}
 
 @media screen and (max-width:550px) {
     .gpt3__signUp-container{

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './cta.css'
 
 const Cta = () => {
@@ -10,7 +11,7 @@ const Cta = () => {
 
       </div>
       <div className='gpt3__cta-btn'>
-        <button type='button'>Get Started</button>
+        <Link to='/sign-up'><button type='button'>Get Started</button></Link>
       </div>
     </div>
   )

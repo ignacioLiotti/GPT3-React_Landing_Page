@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import './navbar.css'
 import logo from '../../assets/logo.svg'
+import { Link } from 'react-router-dom'
+import SignUp from '../../pages/signUp/SignUp'
 
 const Menu = () => (
   <>
@@ -27,8 +29,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
-        <p>Sign in</p>
-        <button type='button'>Sign up</button>
+        <Link to='/sign-up'><p>Sign In</p></Link>
+        <Link to='/sign-up'><button type='button'>Sign up</button></Link>
       </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu
@@ -40,7 +42,8 @@ const Navbar = () => {
               <Menu/>
               <div className='gpt3__navbar-menu_container-links-sign'>
                 <p>Sign in</p>
-                <button type='button'>Sign up</button>
+                <Link to='/sign-up'><button type='button'>Sign up</button></Link>
+                
               </div>
             </div>
           </div>

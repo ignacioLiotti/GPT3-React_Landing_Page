@@ -11,7 +11,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
 
         <Route path="/" element={<Home />} />
-        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/sign-up" element={<SignUp perform='register' />} />
         <Route path="/get-started" element={<GetStarted />} />
       </Routes>
     </BrowserRouter>
