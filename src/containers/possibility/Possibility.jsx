@@ -117,8 +117,8 @@ const Possibility = () => {
 
   return (
     <div className='gpt3__possibility section__padding' id='possibility'>
-      <motion.div className='gpt3__possibility-image' variants={loadVars} initial='initial' whileInView='whileInView'>
-        <motion.div variants={loadVarsParent} initial='initial' animate='animate'>
+      <motion.div className='gpt3__possibility-image' variants={loadVars} initial='initial' whileInView='whileInView' viewport={{once:true}}>
+        <motion.div variants={loadVarsParent} initial='initial' animate='animate' viewport={{once:true}}>
           <motion.div variants={loadVarsChild} className='img__rad'></motion.div>
           <motion.div variants={loadVarsChild} className='img__rad'></motion.div>
           <motion.div variants={loadVarsChild} className='img__rad'></motion.div>
@@ -131,10 +131,10 @@ const Possibility = () => {
       </motion.div>
 
       <div className='gpt3__possibility-content'>
-      <Link to='/sign-up'><motion.h4 variants={loadVarsThird} initial='initial' whileInView='whileInView'>Request Early Access to Get Started</motion.h4></Link>
-        <motion.h1 className='gradient__text' variants={loadVarsFirst} initial='initial' whileInView='whileInView'>The possibilities are beyond your imagination</motion.h1>
-        <motion.p variants={loadVarsSecond} initial='initial' whileInView='whileInView'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</motion.p>
-        <Link to='/sign-up'><motion.h4 variants={loadVarsThird} initial='initial' whileInView='whileInView'>Request Early Access to Get Started</motion.h4></Link>
+      <Link to='/sign-up'><motion.h4 variants={loadVarsThird} initial='initial' whileInView='whileInView' viewport={{once:true}}>Request Early Access to Get Started</motion.h4></Link>
+        <motion.h1 className='gradient__text' variants={loadVarsFirst} initial='initial' whileInView='whileInView' viewport={{once:true}}>The possibilities are beyond your imagination</motion.h1>
+        <motion.p variants={loadVarsSecond} initial='initial' whileInView='whileInView' viewport={{once:true}}>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</motion.p>
+        <Link to='/sign-up'><motion.h4 variants={loadVarsThird} initial='initial' whileInView='whileInView' viewport={{once:true}}>Request Early Access to Get Started</motion.h4></Link>
       </div>
     </div>
   )

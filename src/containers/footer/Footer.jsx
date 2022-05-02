@@ -17,7 +17,7 @@ const Footer = ({showHeading}) => {
 
       <div className='gpt3__footer-links'>
         <div className='gpt3__footer-links_logo'>
-          <img src={gpt3Logo} alt="logo" />
+          <a href='/'><img src={gpt3Logo} alt="logo" /></a>
           <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Home, SignUp, GetStarted,NotFound} from './pages'
+import {Home, SignUp,NotFound} from './pages'
 import './App.css'
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 
@@ -12,7 +12,6 @@ const App = () => {
 
         <Route path="/" element={<Home />} />
         <Route path="/sign-up" element={<SignUp perform='register' />} />
-        <Route path="/get-started" element={<GetStarted />} />
       </Routes>
     </BrowserRouter>
   )

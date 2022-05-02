@@ -8,7 +8,13 @@
     margin: 4rem;
     border-radius: 1rem;
     background: var(--gradient-bar);
+    background-size: 200% 100%;
+	transition: background-position 5s ease-in-out;
 }
+.gpt3__cta:hover{
+    background-position: 200% 0;
+}
+
 .gpt3__cta-content p{
     font-family: var(--font-family);
     font-weight: 500;
