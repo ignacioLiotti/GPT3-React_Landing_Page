@@ -125,9 +125,9 @@ const Possibility = () => {
           <motion.div variants={loadVarsChild} className='img__rad'></motion.div>
           <motion.div variants={loadVarsChild} className='img__rad'></motion.div>
         </motion.div>
-        <img  src={posibility2} alt="" />
-        <motion.div variants={hoverVarsFirst} initial='initial' animate='animate' id='img__btn1' ><img src={btn1} alt="" /></motion.div>
-        <motion.div variants={hoverVarsSecond} initial='initial' animate='animate' id='img__btn2' ><img src={btn2} alt="" />My Apps</motion.div>
+        <img  src={posibility2} alt="" loading='lazy'/>
+        <motion.div variants={hoverVarsFirst} initial='initial' animate='animate' id='img__btn1' ><img src={btn1} alt="" loading='lazy' /></motion.div>
+        <motion.div variants={hoverVarsSecond} initial='initial' animate='animate' id='img__btn2' ><img src={btn2} alt="" loading='lazy' />My Apps</motion.div>
       </motion.div>
 
       <div className='gpt3__possibility-content'>
