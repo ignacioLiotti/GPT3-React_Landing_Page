@@ -72,7 +72,7 @@ const Features = () => {
         {featuresData.map((item,index)=>{
           return(
           <motion.div variants={loadVarsChild} >
-            <Feature key={index} title={item.title} text={item.text} />
+            <Feature key={index} title={item.title} text={item.text}/>
           </motion.div>
           )
 })}
