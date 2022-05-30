@@ -17,7 +17,7 @@ This was done in React with Framer Motion
   from
   ![image](https://user-images.githubusercontent.com/65029266/171010910-f8aa556a-a7fc-41c8-a8e9-8fac82df304b.png)
   to
-  ![image](https://user-images.githubusercontent.com/65029266/171010935-8ce7dfb2-df92-4354-a71b-bfe1e5d50377.png)
+  ![image](https://user-images.githubusercontent.com/65029266/171042376-5a25a850-d0cb-4910-ab26-97d905b2ddba.png)
   further improvement could be achieve but its a great start for just a for fun project.
   
   One issue noted, but not solved, is the waves animation in the possibilities section, witch may cause lag in some devises, supposedly Framer motion uses CSS
