@@ -1,6 +1,6 @@
 # GPT 3 REACT LANDING PAGE
 
-This is a fake lading page for the AI GPT 3, design taken from the channel Javascript Mastery
+This is a fake lading page for the AI GPT 3, design taken from the channel Javascript Mastery, every page its responsive
 
 ## Tecnologies
 
@@ -8,65 +8,33 @@ This was done in React with Framer Motion
 
 ### Pages
 ![image](https://user-images.githubusercontent.com/65029266/171010057-48ca8345-1e37-41f0-a183-4f5a3da07f79.png)
+#### Main Page
+  The landing page per se, the one with the most content, mainly focused in on first view animations, staggered animations and so on, only functional buttons are the 
+  get started, sign in, sign up, request early access, leading to a login or register.
+  
+  It has been optimized even further from the first deployment as the size of the images files were quite enormous. Also added lazy loading for every image after the 
+  hero section.
+  from
+  ![image](https://user-images.githubusercontent.com/65029266/171010910-f8aa556a-a7fc-41c8-a8e9-8fac82df304b.png)
+  to
+  ![image](https://user-images.githubusercontent.com/65029266/171010935-8ce7dfb2-df92-4354-a71b-bfe1e5d50377.png)
+  further improvement could be achieve but its a great start for just a for fun project.
+  
+  One issue noted, but not solved, is the waves animation in the possibilities section, witch may cause lag in some devises, supposedly Framer motion uses CSS
+  transform for their animations, witch uses the GPU instead of the CPU, witch leads to a better performance and smoother animations, so futher research is due to    solve this
 
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Register
+  ![image](https://user-images.githubusercontent.com/65029266/171011937-30b5a8ae-d003-4d9a-89b6-c4276ab3f676.png)
+  Mockup register, its not integrated with anything, as it is not the intended purpose for this project, mostly added for proper pagination.
+#### Login
+![image](https://user-images.githubusercontent.com/65029266/171012429-36814a5d-dc7a-499f-90bc-05c046164e73.png)
+  Mockup login, its not integrated with anything, as it is not the intended purpose for this project, mostly added for proper pagination.
+  
+#### 404
+![image](https://user-images.githubusercontent.com/65029266/171012576-423b60b1-6d04-4032-91f8-6ab052611501.png)
+  404 page, wanted to mess up still a bit with the design in figma and the floating head animation, a nice addition imo
+  
+  
+### Thanks
+  Thanks for comming by! here is my linkedin if you want to connect
+  https://www.linkedin.com/in/ignacio-blanco-liotti/
