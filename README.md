@@ -1,12 +1,14 @@
-# Getting Started with Create React App
+# GPT 3 REACT LANDING PAGE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a fake lading page for the AI GPT 3, design taken from the channel Javascript Mastery
 
-## Available Scripts
+## Tecnologies
 
-In the project directory, you can run:
+This was done in React with Framer Motion
 
-### `npm start`
+### Pages
+![image](https://user-images.githubusercontent.com/65029266/171010057-48ca8345-1e37-41f0-a183-4f5a3da07f79.png)
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
