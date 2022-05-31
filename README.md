@@ -12,7 +12,7 @@ This was done in React with Framer Motion
   The landing page per se, the one with the most content, mainly focused in on first view animations, staggered animations and so on, only functional buttons are the 
   get started, sign in, sign up, request early access, leading to a login or register.
   
-  It has been optimized even further from the first deployment as the size of the images files were quite enormous. Also added lazy loading for every image after the 
+  It has been optimized even further from the first deployment as the size of the images files where quite enormous. Also added lazy loading for every image after the 
   hero section.
   from
   ![image](https://user-images.githubusercontent.com/65029266/171010910-f8aa556a-a7fc-41c8-a8e9-8fac82df304b.png)
